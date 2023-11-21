@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    transition: background-color 0.3s;
+  }
+
+  .hero-section {
+    background: linear-gradient(to right, #273E59, #51648f);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    margin-top: 0px;
+
+  }
+  hero p {
+    margin 0 5rem 0 5rem;
+  }
+  .curved svg {
+    display:block;
+    width:100%;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+  }
+  .centered-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #273e59;
+  }
+  .modal-header-custom {
+    text-align: center;
+    background-color: #d8d8d6;
+  }
+  .card-text {
+    text-align: justify;
+  }
+  .centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+  }
+  .card-title {
+    text-align: center;
+  }
