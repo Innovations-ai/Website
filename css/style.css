@@ -6,7 +6,10 @@ body {
     background-color: #007bff;
     color: white;
   }
-  
+  h2 {
+    margin: 5px 0; /* Adjust as needed */
+    padding: 20; /* Adjust as needed */
+  }
   footer {
     background-color: #343a40;
     color: white;
@@ -18,7 +21,7 @@ body {
   }
 
   .gradient-box {
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    background: linear-gradient(135deg, #6e8efb, #d8546a);
     border-radius: 15px; /* Rounded edges */
     padding: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Shadow for hovering effect */
@@ -26,7 +29,7 @@ body {
     margin: 10px 0; /* Spacing around the box */
     margin-left: auto;
     margin-right: auto;
-    width: 50%; /* This makes the width of the box just enough to fit its content */
+    width: 90%; /* This makes the width of the box just enough to fit its content */
   }
   
   .gradient-box h1 {
@@ -38,14 +41,21 @@ body {
     color : #fff;
     text-align: center;
   }
+  .card {
+    cursor: pointer;
+  }
   .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0,0,0,.2);
+  }
+  .card.card-body {
+    margin: 0 !important;
   }
   .centered-button {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px !important; 
     background-color: #007bff;
   }
   .btn-primary:hover {
@@ -106,5 +116,20 @@ body {
   /* Ensure that the content is well spaced and readable */
   .card-body p, .card-body ul {
     text-align: justify;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
   }
+  .collapse {
+    transition: max-height 0.5s ease;
+  }
+  .contact-us-section {
+    margin-bottom: 50px; /* Adjust as needed */
+  }
+  section {
+    padding-top: 0px; /* Reduced padding at the top of each section */
+    padding-bottom: 0px; /* Reduced padding at the bottom of each section */
+  }
+  .container {
+    padding: 0; /* Remove padding if not needed */
+    margin-bottom: 0px; /* Adjust as needed */
+  }
+  
