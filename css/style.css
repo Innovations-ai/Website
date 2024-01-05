@@ -70,3 +70,41 @@ body {
     color: #273e59;
     text-align: center;
   }
+  .product-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; /* Ensures the image is responsive and fits the container */
+    height: auto; /* Maintains the aspect ratio */
+  }
+  
+  .product-gif {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+  }
+  @media (min-width: 768px) { /* Adjust for larger screens */
+    .product-logo, .product-gif {
+      margin-bottom: 20px; /* Spacing */
+    }
+  }
+  .title-image {
+    display: block;
+    max-width: 100%; /* Ensures the image doesn't exceed the card's width */
+    height: auto; /* Maintains aspect ratio */
+    margin: 0 auto; /* Centers the image */
+  }
+  .card-body h3, .card-body h4 {
+    color: #273e59; /* Adjust color to match your design */
+  }
+  
+  .card-body ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Ensure that the content is well spaced and readable */
+  .card-body p, .card-body ul {
+    text-align: justify;
+    margin-bottom: 15px;
+  }
